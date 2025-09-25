@@ -1,0 +1,107 @@
+{
+  "city_a": "chennai",
+  "city_b": "mumbai",
+  "analysis_period_days": 30,
+  "city_a_analysis": {
+    "city": "chennai",
+    "date": null,
+    "total_orders": 964,
+    "failed_orders": 192,
+    "failure_rate": 19.91701244813278,
+    "failure_reasons": {
+      "Warehouse delay": 45,
+      "Traffic congestion": 33,
+      "Stockout": 40,
+      "Incorrect address": 36,
+      "Weather disruption": 38
+    },
+    "external_correlation": {
+      "correlation_found": true,
+      "factors": {
+        "weather_conditions": {
+          "Rain": 315,
+          "Clear": 329,
+          "Fog": 310
+        },
+        "traffic_conditions": {
+          "Moderate": 307,
+          "Heavy": 304,
+          "Clear": 343
+        },
+        "event_types": {
+          "": 268,
+          "Strike": 201,
+          "Festival": 235,
+          "Holiday": 250
+        }
+      },
+      "total_correlated_orders": 954
+    },
+    "insights": [
+      "Primary failure reason: Warehouse delay",
+      "Warehouse operations efficiency needs attention",
+      "External factors significantly impact delivery performance"
+    ],
+    "recommendations": [
+      "Optimize warehouse layout and implement lean processes",
+      "Optimize warehouse layout and implement lean processes"
+    ]
+  },
+  "city_b_analysis": {
+    "city": "mumbai",
+    "date": null,
+    "total_orders": 673,
+    "failed_orders": 150,
+    "failure_rate": 22.288261515601786,
+    "failure_reasons": {
+      "Incorrect address": 26,
+      "Warehouse delay": 36,
+      "Traffic congestion": 29,
+      "Stockout": 25,
+      "Weather disruption": 34
+    },
+    "external_correlation": {
+      "correlation_found": true,
+      "factors": {
+        "weather_conditions": {
+          "Fog": 215,
+          "Clear": 221,
+          "Rain": 230
+        },
+        "traffic_conditions": {
+          "Moderate": 215,
+          "Clear": 226,
+          "Heavy": 225
+        },
+        "event_types": {
+          "": 186,
+          "Festival": 153,
+          "Strike": 167,
+          "Holiday": 160
+        }
+      },
+      "total_correlated_orders": 666
+    },
+    "insights": [
+      "Primary failure reason: Warehouse delay",
+      "Warehouse operations efficiency needs attention",
+      "External factors significantly impact delivery performance"
+    ],
+    "recommendations": [
+      "Optimize warehouse layout and implement lean processes",
+      "Optimize warehouse layout and implement lean processes"
+    ]
+  },
+  "comparison": {
+    "city_a_failure_rate": 19.91701244813278,
+    "city_b_failure_rate": 22.288261515601786,
+    "city_a_total_orders": 964,
+    "city_b_total_orders": 673
+  },
+  "insights": [
+    "mumbai has higher failure rate than chennai"
+  ],
+  "recommendations": [],
+  "question": "Compare delivery failure causes between Chennai and Mumbai last month?",
+  "time_period": "Last 30 days"
+}

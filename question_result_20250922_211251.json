@@ -1,0 +1,43 @@
+{
+  "question": "what are the top 3 clients?",
+  "analysis_type": "Top 3 Clients Analysis",
+  "top_clients": [
+    {
+      "rank": 1,
+      "client_id": "343",
+      "client_name": "De Inc",
+      "total_orders": 12,
+      "successful_orders": 12,
+      "failed_orders": 0,
+      "success_rate": 100.0,
+      "failure_rate": 0.0
+    },
+    {
+      "rank": 2,
+      "client_id": "338",
+      "client_name": "Brar, Bhasin and Kumar",
+      "total_orders": 18,
+      "successful_orders": 18,
+      "failed_orders": 0,
+      "success_rate": 100.0,
+      "failure_rate": 0.0
+    },
+    {
+      "rank": 3,
+      "client_id": "373",
+      "client_name": "Sridhar, Raja and Din",
+      "total_orders": 15,
+      "successful_orders": 15,
+      "failed_orders": 0,
+      "success_rate": 100.0,
+      "failure_rate": 0.0
+    }
+  ],
+  "insights": [
+    "Top 3 clients by success rate:",
+    "1. De Inc: 100.0% success rate (12 orders)",
+    "2. Brar, Bhasin and Kumar: 100.0% success rate (18 orders)",
+    "3. Sridhar, Raja and Din: 100.0% success rate (15 orders)"
+  ],
+  "recommendations": []
+}

@@ -1,0 +1,11 @@
+driver_id,driver_name,phone,license_number,partner_company,city,state,status,created_at
+1,Jivin Edwin,07877292549,DL00012885,Shadowfax,Chennai,Tamil Nadu,Active,2024-02-04 16:23:30
+2,Yuvaan Zacharia,0322946722,DL00022295,Shadowfax,Surat,Gujarat,Active,2024-01-11 02:14:11
+3,Aradhya Bahl,0233174091,DL00032178,In-house,Bengaluru,Karnataka,Inactive,2023-08-18 21:20:50
+4,Gokul Rama,05388810196,DL00046423,In-house,Chennai,Tamil Nadu,Inactive,2024-05-28 12:32:42
+5,Aniruddh Garg,7865518334,DL00058304,In-house,Mysuru,Karnataka,Inactive,2025-07-14 07:00:42
+6,Lagan Seshadri,7678937462,DL00064452,EcomExpress,New Delhi,Delhi,Active,2021-10-01 05:10:18
+7,Farhan Sharaf,3367732073,DL00072119,Shadowfax,Mysuru,Karnataka,Inactive,2021-01-18 10:34:40
+8,Zeeshan Sidhu,+916702881122,DL00086581,Shadowfax,New Delhi,Delhi,Inactive,2022-03-01 03:19:30
+9,Dishani Barman,+911094813848,DL00099759,Delhivery,Mysuru,Karnataka,Active,2025-02-21 05:06:51
+10,Faiyaz Singhal,+911066252067,DL00105219,EcomExpress,Coimbatore,Tamil Nadu,Active,2021-02-06 01:31:17

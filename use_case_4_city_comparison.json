@@ -1,0 +1,52 @@
+{
+  "city_a": "Chennai",
+  "city_b": "Pune",
+  "analysis_period_days": 30,
+  "city_a_analysis": {
+    "city": "Chennai",
+    "date": null,
+    "total_orders": 2,
+    "failed_orders": 2,
+    "failure_rate": 100.0,
+    "failure_reasons": {
+      "Warehouse delay": 1,
+      "Traffic congestion": 1
+    },
+    "external_correlation": {
+      "correlation_found": false,
+      "factors": {}
+    },
+    "insights": [
+      "Primary failure reason: Warehouse delay",
+      "Warehouse operations efficiency needs attention"
+    ],
+    "recommendations": [
+      "Optimize warehouse layout and implement lean processes",
+      "Optimize warehouse layout and implement lean processes"
+    ]
+  },
+  "city_b_analysis": {
+    "city": "Pune",
+    "date": null,
+    "total_orders": 1,
+    "failed_orders": 0,
+    "failure_rate": 0.0,
+    "failure_reasons": {},
+    "external_correlation": {
+      "correlation_found": false,
+      "factors": {}
+    },
+    "insights": [],
+    "recommendations": []
+  },
+  "comparison": {
+    "city_a_failure_rate": 100.0,
+    "city_b_failure_rate": 0.0,
+    "city_a_total_orders": 2,
+    "city_b_total_orders": 1
+  },
+  "insights": [
+    "Chennai has higher failure rate than Pune"
+  ],
+  "recommendations": []
+}

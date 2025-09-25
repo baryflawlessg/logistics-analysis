@@ -1,0 +1,10 @@
+{
+  "question": "If i onboard a new client with 20000 extra monthly orders, what would be the risks?",
+  "analysis_type": "Recent Failures Analysis",
+  "total_recent_orders": 0,
+  "failed_orders": 0,
+  "failure_rate": 0,
+  "failure_reasons": {},
+  "insights": [],
+  "recommendations": []
+}

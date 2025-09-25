@@ -1,0 +1,65 @@
+# Sample Questions for Delivery Failure Analysis
+
+## City-Based Questions
+- Why were deliveries delayed in Chennai yesterday?
+- Why did deliveries fail in Mumbai last week?
+- What's happening with deliveries in Delhi?
+- Compare delivery performance between Chennai and Pune
+- Which city has the highest failure rate?
+- Why are deliveries slower in Bangalore?
+
+## Client-Based Questions
+- Why did Saini LLC's orders fail in the past week?
+- What's wrong with Mann Group's deliveries?
+- Why do Zacharia's orders keep failing?
+- Which client has the most delivery issues?
+- How can we improve delivery for premium clients?
+
+## Warehouse-Based Questions
+- What's the problem with Warehouse 1?
+- Why does Warehouse 2 have so many delays?
+- Explain the issues with Warehouse 3
+- Which warehouse performs best?
+- How can we optimize warehouse operations?
+
+## Time-Based Questions
+- Why do deliveries fail more often on weekends?
+- What happens during festival periods?
+- Why are Monday deliveries problematic?
+- How does seasonal demand affect deliveries?
+- What's the impact of holiday periods?
+
+## Operational Questions
+- What are the main reasons for delivery failures?
+- Why do drivers have trouble finding addresses?
+- How does traffic congestion affect deliveries?
+- What's the impact of weather on deliveries?
+- Why do stockouts cause delivery failures?
+
+## Scaling Questions
+- What risks should we expect with 20,000 additional orders?
+- How will 50,000 extra orders affect our operations?
+- What happens if we double our order volume?
+- Can we handle 100,000 orders per month?
+- What capacity constraints do we have?
+
+## External Factor Questions
+- How does weather affect delivery performance?
+- What's the impact of traffic on deliveries?
+- How do strikes affect our operations?
+- Why do holidays cause delivery problems?
+- What external factors cause the most issues?
+
+## Performance Questions
+- Which drivers perform best?
+- What's our overall failure rate?
+- How can we improve delivery success?
+- What are our biggest operational challenges?
+- Where should we focus our improvements?
+
+## Custom Questions
+- Why did my specific order fail?
+- What's the status of order #12345?
+- How long does delivery take on average?
+- What's the cost of failed deliveries?
+- How can we reduce delivery time?

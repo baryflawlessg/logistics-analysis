@@ -1,0 +1,19 @@
+{
+  "additional_monthly_orders": 3,
+  "analysis_period_months": 1,
+  "current_total_orders": 10000,
+  "current_failure_rate": 20.04,
+  "projected_failures": 0.6012,
+  "insights": [
+    "Current failure rate: 20.0%",
+    "With 3 additional orders, expect ~1 failures",
+    "High current failure rate indicates capacity constraints"
+  ],
+  "recommendations": [
+    "Invest in process automation and quality control systems",
+    "Develop contingency plans for peak periods",
+    "Expand warehouse capacity and hire additional drivers",
+    "Implement predictive analytics for demand forecasting"
+  ],
+  "question": "currently, what are the top 3 clients?"
+}

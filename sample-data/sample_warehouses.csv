@@ -1,0 +1,11 @@
+warehouse_id,warehouse_name,state,city,pincode,capacity,manager_name,contact_phone,created_at
+1,Warehouse 1,Gujarat,Surat,078942,1226,Aaina Kannan,2904587315,2025-03-07 08:48:51
+2,Warehouse 2,Maharashtra,Pune,043213,983,Anya Tella,+912835346558,2020-04-06 07:35:33
+3,Warehouse 3,Gujarat,Ahmedabad,546682,613,Romil Walla,+916190608840,2022-04-10 00:02:42
+4,Warehouse 4,Karnataka,Mysuru,273549,1109,Miraya Goel,6735234084,2021-09-18 23:50:11
+5,Warehouse 5,Delhi,New Delhi,708166,769,Vedika Wason,+914825025305,2020-05-23 03:18:56
+6,Warehouse 6,Karnataka,Bengaluru,191272,1347,Himmat Sinha,6192423395,2022-12-30 15:41:01
+7,Warehouse 7,Maharashtra,Nagpur,127242,1528,Onkar Mann,+916984382148,2020-08-18 18:33:11
+8,Warehouse 8,Tamil Nadu,Chennai,663933,1435,Umang Dhar,+913712372430,2025-08-25 23:57:10
+9,Warehouse 9,Tamil Nadu,Coimbatore,735283,839,Faiyaz Chahal,08065593856,2021-01-02 16:22:47
+10,Warehouse 10,Karnataka,Mysuru,315131,1403,Keya Savant,3051967811,2023-10-26 00:49:11

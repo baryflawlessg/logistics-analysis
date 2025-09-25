@@ -1,0 +1,14 @@
+# OpenAI API Configuration
+# ========================
+
+# Option 1: Set environment variable (Recommended)
+# In Command Prompt:
+# set OPENAI_API_KEY=your_actual_api_key_here
+
+# Option 2: Edit this file and uncomment the line below
+# OPENAI_API_KEY=your_actual_api_key_here
+
+# Option 3: Pass key directly in code
+# analyzer = LLMEnhancedAnalyzer(openai_api_key='your_actual_api_key_here')
+
+# Get your API key from: https://platform.openai.com/api-keys

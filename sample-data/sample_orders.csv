@@ -1,0 +1,21 @@
+order_id,client_id,customer_name,customer_phone,delivery_address_line1,delivery_address_line2,city,state,pincode,order_date,promised_delivery_date,actual_delivery_date,status,payment_mode,amount,failure_reason,created_at
+1,337,Kiaan Dara,+918029267938,"59/164, Rama Marg",Deo Path,Coimbatore,Tamil Nadu,238829,2025-04-23 23:54:00,2025-04-26 23:54:00,,Failed,COD,1876.15,Stockout,2025-07-30 07:39:56
+2,149,Tanya Bali,+919822141780,"H.No. 850 Dani Chowk",Choudhury Nagar,Ahmedabad,Gujarat,897610,2025-09-12 04:47:05,2025-09-14 04:47:05,2025-09-16 04:47:05,Delivered,COD,334.04,,2025-08-19 14:13:40
+3,176,Zoya Ratti,+912558012710,"194 Bajaj Chowk",Salvi,Coimbatore,Tamil Nadu,100946,2025-02-04 23:25:42,2025-02-07 23:25:42,,Pending,COD,4727.1,,2025-05-05 19:06:53
+4,472,Jhanvi Gole,+910258430634,"H.No. 707, Saha Chowk",Keer,Pune,Maharashtra,839579,2025-03-17 13:46:00,2025-03-20 13:46:00,,In-Transit,COD,4679.38,,2025-08-10 21:13:17
+5,18,Kismat Borah,5745456709,"H.No. 17 Kashyap Path",Saini Zila,Bengaluru,Karnataka,337614,2025-04-27 20:08:41,2025-04-29 20:08:41,,Returned,Prepaid,1441.27,,2025-03-17 09:16:09
+6,68,Ryan Kota,00759875325,"119 Ramesh Ganj",Sami Road,Coimbatore,Tamil Nadu,823437,2025-04-28 18:20:43,2025-05-03 18:20:43,,Returned,COD,4935.84,,2025-03-25 06:47:33
+7,408,Dishani Wali,08681742338,"38/05, Krishnan",Kapur Path,New Delhi,Delhi,598069,2025-02-25 05:10:28,2025-03-01 05:10:28,2025-03-02 05:10:28,Delivered,COD,4644.32,,2025-05-20 08:11:29
+8,287,Rati Divan,5497403148,"49, Som Zila",Ahluwalia Nagar,Chennai,Tamil Nadu,944910,2025-05-18 20:45:05,2025-05-19 20:45:05,,Failed,Prepaid,2274.28,Warehouse delay,2025-06-17 07:49:19
+9,468,Divit Dyal,07397088157,"95, Bajaj Circle",Kari Chowk,Chennai,Tamil Nadu,623023,2025-07-11 02:41:03,2025-07-14 02:41:03,,Failed,COD,4551.13,Traffic congestion,2025-04-19 21:23:06
+10,424,Seher Aurora,7263254600,"09, Hegde Zila",Dutt Marg,Coimbatore,Tamil Nadu,216321,2025-03-15 09:28:03,2025-03-16 09:28:03,,Pending,Prepaid,2349.37,,2025-05-27 07:09:44
+11,246,Shlok Madan,08411300741,"H.No. 58, Barad",Kanda Chowk,New Delhi,Delhi,713632,2025-08-31 17:41:19,2025-09-05 17:41:19,,Returned,Prepaid,4031.02,,2025-07-06 03:56:47
+12,99,Shayak Saraf,01437174223,"48/80, Walia Zila",Mammen Circle,Ahmedabad,Gujarat,201249,2025-01-16 20:11:18,2025-01-19 20:11:18,,Failed,COD,284.23,Incorrect address,2025-05-10 05:01:13
+13,283,Kimaya Datta,+916296292543,"H.No. 24 Karnik Road",Garg Nagar,Mysuru,Karnataka,949178,2025-07-20 07:19:37,2025-07-25 07:19:37,,Failed,Prepaid,874.39,Stockout,2025-01-20 13:29:37
+14,366,Indrans Bava,08657056475,"H.No. 55, Chadha Circle",Roy,Ahmedabad,Gujarat,734594,2025-07-30 14:11:54,2025-07-31 14:11:54,2025-08-02 14:11:54,Delivered,Prepaid,4975.29,,2025-08-02 16:04:21
+15,204,Elakshi Bhagat,09498854705,"67 Biswas Nagar",Kale Chowk,Mysuru,Karnataka,452173,2025-06-03 23:42:59,2025-06-07 23:42:59,,Returned,COD,2939.71,,2025-06-23 16:42:45
+16,337,Rohan Garde,01087003062,"H.No. 20 Raj Chowk",Guha Path,New Delhi,Delhi,237308,2025-04-26 04:57:20,2025-04-28 04:57:20,,Failed,Prepaid,1972.1,Traffic congestion,2025-04-07 03:11:57
+17,275,Divit Badami,+917305105328,"H.No. 56 Mammen Marg",Bala Zila,New Delhi,Delhi,567591,2025-01-29 14:01:53,2025-02-02 14:01:53,,Pending,Prepaid,2819.59,,2025-01-31 09:07:04
+18,56,Diya Sahni,02904750683,"96/47 Lala Nagar",Sachdeva Nagar,Bengaluru,Karnataka,935027,2025-02-25 19:36:14,2025-02-26 19:36:14,,Returned,COD,2111.25,,2025-03-20 08:30:18
+19,485,Eshani Goel,09520337621,"00/788 Andra Zila",Dyal Chowk,Chennai,Tamil Nadu,842203,2025-05-17 07:18:48,2025-05-19 07:18:48,,Pending,COD,3214.65,,2025-06-07 06:17:05
+20,21,Adira Shanker,+914218094087,"H.No. 50 Bumb",Borde Circle,Ahmedabad,Gujarat,230079,2025-03-28 18:39:51,2025-04-01 18:39:51,,In-Transit,COD,4328.82,,2025-05-13 01:56:37

@@ -1,0 +1,135 @@
+[
+  {
+    "city": "chennai",
+    "date": null,
+    "total_orders": 2,
+    "failed_orders": 2,
+    "failure_rate": 100.0,
+    "failure_reasons": {
+      "Warehouse delay": 1,
+      "Traffic congestion": 1
+    },
+    "external_correlation": {
+      "correlation_found": false,
+      "factors": {}
+    },
+    "insights": [
+      "Primary failure reason: Warehouse delay",
+      "Warehouse operations efficiency needs attention"
+    ],
+    "recommendations": [
+      "Optimize warehouse layout and implement lean processes",
+      "Optimize warehouse layout and implement lean processes"
+    ],
+    "question": "Why were deliveries delayed in Chennai yesterday?"
+  },
+  {
+    "question": "What are the main reasons for delivery failures?",
+    "analysis_type": "General Failure Analysis",
+    "total_orders": 10,
+    "failed_orders": 3,
+    "failure_rate": 30.0,
+    "failure_reasons": {
+      "Stockout": 1,
+      "Warehouse delay": 1,
+      "Traffic congestion": 1
+    },
+    "city_failures": {
+      "Coimbatore": 1,
+      "Chennai": 2
+    },
+    "insights": [
+      "Most common failure reason: Stockout",
+      "City with most failures: Chennai"
+    ],
+    "recommendations": [
+      "Implement real-time inventory tracking"
+    ]
+  },
+  {
+    "error": "No orders found for s in the last 30 days",
+    "question": "Why did Saini LLC's orders fail in the past week?"
+  },
+  {
+    "additional_monthly_orders": 0,
+    "analysis_period_months": 1,
+    "current_total_orders": 10,
+    "current_failure_rate": 30.0,
+    "projected_failures": 0.0,
+    "insights": [
+      "Current failure rate: 30.0%",
+      "With 0 additional orders, expect ~0 failures",
+      "High current failure rate indicates capacity constraints"
+    ],
+    "recommendations": [
+      "Invest in process automation and quality control systems",
+      "Develop contingency plans for peak periods",
+      "Expand warehouse capacity and hire additional drivers",
+      "Implement predictive analytics for demand forecasting"
+    ],
+    "question": "What risks should we expect with 20000 additional orders?"
+  },
+  {
+    "city_a": "n",
+    "city_b": "e",
+    "analysis_period_days": 30,
+    "city_a_analysis": {
+      "city": "n",
+      "date": null,
+      "total_orders": 5,
+      "failed_orders": 2,
+      "failure_rate": 40.0,
+      "failure_reasons": {
+        "Warehouse delay": 1,
+        "Traffic congestion": 1
+      },
+      "external_correlation": {
+        "correlation_found": false,
+        "factors": {}
+      },
+      "insights": [
+        "Primary failure reason: Warehouse delay",
+        "Warehouse operations efficiency needs attention"
+      ],
+      "recommendations": [
+        "Optimize warehouse layout and implement lean processes",
+        "Optimize warehouse layout and implement lean processes"
+      ]
+    },
+    "city_b_analysis": {
+      "city": "e",
+      "date": null,
+      "total_orders": 10,
+      "failed_orders": 3,
+      "failure_rate": 30.0,
+      "failure_reasons": {
+        "Stockout": 1,
+        "Warehouse delay": 1,
+        "Traffic congestion": 1
+      },
+      "external_correlation": {
+        "correlation_found": false,
+        "factors": {}
+      },
+      "insights": [
+        "Primary failure reason: Stockout",
+        "Warehouse inventory management needs improvement"
+      ],
+      "recommendations": [
+        "Implement real-time inventory tracking and automated reorder systems",
+        "Optimize warehouse layout and implement lean processes"
+      ]
+    },
+    "comparison": {
+      "city_a_failure_rate": 40.0,
+      "city_b_failure_rate": 30.0,
+      "city_a_total_orders": 5,
+      "city_b_total_orders": 10
+    },
+    "insights": [
+      "n has higher failure rate than e"
+    ],
+    "recommendations": [],
+    "question": "Compare delivery performance between Chennai and Pune"
+  }
+]

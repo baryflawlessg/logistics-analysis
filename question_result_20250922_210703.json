@@ -1,0 +1,33 @@
+{
+  "question": "how many clients in total?",
+  "analysis_type": "General Failure Analysis",
+  "total_orders": 10000,
+  "failed_orders": 2004,
+  "failure_rate": 20.04,
+  "failure_reasons": {
+    "Stockout": 425,
+    "Warehouse delay": 422,
+    "Traffic congestion": 363,
+    "Incorrect address": 409,
+    "Weather disruption": 385
+  },
+  "city_failures": {
+    "Coimbatore": 191,
+    "Chennai": 192,
+    "Ahmedabad": 189,
+    "Mysuru": 209,
+    "New Delhi": 392,
+    "Bengaluru": 199,
+    "Mumbai": 150,
+    "Surat": 217,
+    "Nagpur": 144,
+    "Pune": 121
+  },
+  "insights": [
+    "Most common failure reason: Stockout",
+    "City with most failures: New Delhi"
+  ],
+  "recommendations": [
+    "Implement real-time inventory tracking"
+  ]
+}

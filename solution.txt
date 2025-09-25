@@ -1,0 +1,39 @@
+Delivery Failure Root Cause Analysis System - Solution Documentation
+
+================================================================================
+
+SOLUTION STEPS
+==============
+
+1) Sample data files were provided to the LLM to understand data structure and content patterns
+2) Full data files were loaded by Python code for actual query execution and analysis
+3) Table relationships and foreign key mappings were defined and shared with both LLM and code
+4) LLM was enhanced with OpenAI API to generate structured queries from natural language questions
+5) Question classification system was implemented to distinguish between data queries and analytical questions
+6) Multi-stage processing was added to handle hybrid questions with both data and analytical elements
+7) Basic join functionality was implemented for specific scenarios like warehouse sales analysis
+8) Analytical engine was created to generate insights, recommendations, and risk assessments
+9) System now supports three question types: data queries, analytical questions, and hybrid questions
+10) Results are formatted and displayed based on question type with appropriate insights and recommendations
+
+TECHNICAL ARCHITECTURE
+======================
+
+The system uses a hybrid approach combining LLM intelligence with Python data processing. The LLM understands natural language questions and generates structured queries, while Python code executes these queries on the actual data. The system maintains awareness of table relationships and can perform basic joins when needed.
+
+The question classification system routes questions to appropriate handlers: data queries go to the query engine, analytical questions go to the insight generator, and hybrid questions are processed through both stages. This allows the system to handle both simple data requests and complex analytical scenarios.
+
+The analytical engine uses LLM capabilities to generate business insights, risk assessments, and actionable recommendations based on the data analysis results. This transforms raw data into strategic guidance for operations managers.
+
+KEY CAPABILITIES
+================
+
+- Natural language question processing with LLM-powered query generation
+- Multi-table data analysis with relationship awareness
+- Question type classification (data, analytical, hybrid)
+- Basic join functionality for cross-table analysis
+- Analytical insight generation with recommendations
+- Risk assessment and scenario analysis
+- Human-readable results with actionable insights
+
+The system successfully bridges the gap between technical data analysis and business decision-making by providing intelligent, context-aware responses to complex operational questions.

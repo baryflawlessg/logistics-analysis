@@ -1,0 +1,42 @@
+{
+  "city": "y",
+  "date": null,
+  "total_orders": 1021,
+  "failed_orders": 209,
+  "failure_rate": 20.470127326150834,
+  "failure_reasons": {
+    "Stockout": 46,
+    "Weather disruption": 37,
+    "Incorrect address": 47,
+    "Warehouse delay": 44,
+    "Traffic congestion": 35
+  },
+  "external_correlation": {
+    "correlation_found": true,
+    "factors": {
+      "weather_conditions": {
+        "Fog": 353,
+        "Rain": 360,
+        "Clear": 367
+      },
+      "traffic_conditions": {
+        "Clear": 366,
+        "Moderate": 353,
+        "Heavy": 361
+      },
+      "event_types": {
+        "Holiday": 293,
+        "": 260,
+        "Strike": 251,
+        "Festival": 276
+      }
+    },
+    "total_correlated_orders": 1080
+  },
+  "insights": [
+    "Primary failure reason: Incorrect address",
+    "External factors significantly impact delivery performance"
+  ],
+  "recommendations": [],
+  "question": "Why were deliveries delayed in city Chennai yesterday?"
+}

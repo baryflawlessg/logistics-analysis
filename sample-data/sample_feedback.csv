@@ -1,0 +1,16 @@
+feedback_id,order_id,customer_name,feedback_text,sentiment,rating,created_at
+1,4084,Arhaan Sood,"Package was late, no update from driver.",Negative,2,30-08-2025 09:49
+2,6917,Misha Gour,"Delivery never came, wrong address issue.",Negative,3,31-07-2025 02:23
+4,9177,Yasmin Gopal,Driver was polite but package was delayed.,Positive,5,16-04-2025 10:28
+5,6500,Jiya Roy,"Good service, on time delivery.",Negative,5,17-01-2025 22:51
+6,6778,Reyansh Dasgupta,Driver was polite but package was delayed.,Negative,5,28-04-2025 06:48
+7,5140,Anika Andra,Package cancelled due to stock issue.,Positive,3,06-04-2025 04:01
+8,5467,Zeeshan Dube,"Package was late, no update from driver.",Neutral,5,22-07-2025 01:48
+9,5128,Hansh Lalla,"Delivery never came, wrong address issue.",Positive,1,05-08-2025 02:28
+10,5196,Badal Bhatia,"Delivery never came, wrong address issue.",Neutral,2,06-05-2025 04:45
+14,868,Veer Sankar,Package cancelled due to stock issue.,Neutral,3,20-01-2025 20:21
+22,6386,Kiaan Date,"Good service, on time delivery.",Positive,3,30-03-2025 21:02
+23,2988,Shray Saini,Package cancelled due to stock issue.,Negative,3,11-04-2025 20:11
+24,142,Shanaya Chand,"Package was late, no update from driver.",Positive,3,02-06-2025 20:21
+26,4383,Parinaaz Bhakta,"Good service, on time delivery.",Neutral,3,13-04-2025 22:44
+37,1300,Rohan Chaudry,Driver was polite but package was delayed.,Neutral,1,28-06-2025 20:38

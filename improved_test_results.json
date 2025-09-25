@@ -1,0 +1,201 @@
+[
+  {
+    "question": "currently, what are the top 3 clients?",
+    "analysis_type": "Top 3 Clients Analysis",
+    "top_clients": [
+      {
+        "rank": 1,
+        "client_id": "343",
+        "client_name": "De Inc",
+        "total_orders": 12,
+        "successful_orders": 12,
+        "failed_orders": 0,
+        "success_rate": 100.0,
+        "failure_rate": 0.0
+      },
+      {
+        "rank": 2,
+        "client_id": "338",
+        "client_name": "Brar, Bhasin and Kumar",
+        "total_orders": 18,
+        "successful_orders": 18,
+        "failed_orders": 0,
+        "success_rate": 100.0,
+        "failure_rate": 0.0
+      },
+      {
+        "rank": 3,
+        "client_id": "373",
+        "client_name": "Sridhar, Raja and Din",
+        "total_orders": 15,
+        "successful_orders": 15,
+        "failed_orders": 0,
+        "success_rate": 100.0,
+        "failure_rate": 0.0
+      }
+    ],
+    "insights": [
+      "Top 3 clients by success rate:",
+      "1. De Inc: 100.0% success rate (12 orders)",
+      "2. Brar, Bhasin and Kumar: 100.0% success rate (18 orders)",
+      "3. Sridhar, Raja and Din: 100.0% success rate (15 orders)"
+    ],
+    "recommendations": []
+  },
+  {
+    "question": "how many clients in total?",
+    "analysis_type": "Client Count Analysis",
+    "total_clients": 500,
+    "clients_with_orders": 500,
+    "clients_without_orders": 0,
+    "insights": [
+      "Total clients in system: 500",
+      "Clients with orders: 500",
+      "Clients without orders: 0"
+    ],
+    "recommendations": []
+  },
+  {
+    "question": "what are the worst 2 clients?",
+    "analysis_type": "Worst 2 Clients Analysis",
+    "worst_clients": [
+      {
+        "rank": 1,
+        "client_id": "185",
+        "client_name": "Ram-Walia",
+        "total_orders": 10,
+        "successful_orders": 4,
+        "failed_orders": 6,
+        "success_rate": 40.0,
+        "failure_rate": 60.0
+      },
+      {
+        "rank": 2,
+        "client_id": "12",
+        "client_name": "Tella-Sheth",
+        "total_orders": 19,
+        "successful_orders": 10,
+        "failed_orders": 9,
+        "success_rate": 52.63157894736842,
+        "failure_rate": 47.368421052631575
+      }
+    ],
+    "insights": [
+      "Worst 2 clients by failure rate:",
+      "1. Ram-Walia: 60.0% failure rate (10 orders)",
+      "2. Tella-Sheth: 47.4% failure rate (19 orders)"
+    ],
+    "recommendations": []
+  },
+  {
+    "question": "which clients have the most orders?",
+    "analysis_type": "Most Orders Clients Analysis",
+    "top_clients_by_orders": [
+      {
+        "rank": 1,
+        "client_id": "409",
+        "client_name": "Bath, Bhatt and Gulati",
+        "total_orders": 35,
+        "successful_orders": 25,
+        "failed_orders": 10,
+        "success_rate": 71.42857142857143,
+        "failure_rate": 28.57142857142857
+      },
+      {
+        "rank": 2,
+        "client_id": "118",
+        "client_name": "Atwal-Dhawan",
+        "total_orders": 34,
+        "successful_orders": 28,
+        "failed_orders": 6,
+        "success_rate": 82.35294117647058,
+        "failure_rate": 17.647058823529413
+      },
+      {
+        "rank": 3,
+        "client_id": "446",
+        "client_name": "Jain, Doshi and Sanghvi",
+        "total_orders": 33,
+        "successful_orders": 28,
+        "failed_orders": 5,
+        "success_rate": 84.84848484848484,
+        "failure_rate": 15.151515151515152
+      },
+      {
+        "rank": 4,
+        "client_id": "240",
+        "client_name": "Majumdar, Sarraf and Bhalla",
+        "total_orders": 33,
+        "successful_orders": 24,
+        "failed_orders": 9,
+        "success_rate": 72.72727272727273,
+        "failure_rate": 27.27272727272727
+      },
+      {
+        "rank": 5,
+        "client_id": "377",
+        "client_name": "Chaudhuri Group",
+        "total_orders": 33,
+        "successful_orders": 25,
+        "failed_orders": 8,
+        "success_rate": 75.75757575757575,
+        "failure_rate": 24.242424242424242
+      }
+    ],
+    "insights": [
+      "Clients with most orders:",
+      "1. Bath, Bhatt and Gulati: 35 orders (71.4% success rate)",
+      "2. Atwal-Dhawan: 34 orders (82.4% success rate)",
+      "3. Jain, Doshi and Sanghvi: 33 orders (84.8% success rate)",
+      "4. Majumdar, Sarraf and Bhalla: 33 orders (72.7% success rate)",
+      "5. Chaudhuri Group: 33 orders (75.8% success rate)"
+    ],
+    "recommendations": [
+      "Focus on Bath, Bhatt and Gulati - they have the highest order volume",
+      "Consider dedicated account management for high-volume clients"
+    ]
+  },
+  {
+    "question": "show me the best performing client",
+    "analysis_type": "Top 3 Clients Analysis",
+    "top_clients": [
+      {
+        "rank": 1,
+        "client_id": "343",
+        "client_name": "De Inc",
+        "total_orders": 12,
+        "successful_orders": 12,
+        "failed_orders": 0,
+        "success_rate": 100.0,
+        "failure_rate": 0.0
+      },
+      {
+        "rank": 2,
+        "client_id": "338",
+        "client_name": "Brar, Bhasin and Kumar",
+        "total_orders": 18,
+        "successful_orders": 18,
+        "failed_orders": 0,
+        "success_rate": 100.0,
+        "failure_rate": 0.0
+      },
+      {
+        "rank": 3,
+        "client_id": "373",
+        "client_name": "Sridhar, Raja and Din",
+        "total_orders": 15,
+        "successful_orders": 15,
+        "failed_orders": 0,
+        "success_rate": 100.0,
+        "failure_rate": 0.0
+      }
+    ],
+    "insights": [
+      "Top 3 clients by success rate:",
+      "1. De Inc: 100.0% success rate (12 orders)",
+      "2. Brar, Bhasin and Kumar: 100.0% success rate (18 orders)",
+      "3. Sridhar, Raja and Din: 100.0% success rate (15 orders)"
+    ],
+    "recommendations": []
+  }
+]
