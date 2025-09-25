@@ -310,6 +310,73 @@ class LLMEnhancedAnalyzer:
         
         return results
     
+    def _execute_warehouse_failure_join(self, query_params):
+        """Execute warehouse failure analysis by joining warehouse_logs and orders."""
+        print("🔍 Executing warehouse failure join...")
+        
+        # Get data from both tables
+        warehouse_logs = self.analyzer.data.get('warehouse_logs', [])
+        orders = self.analyzer.data.get('orders', [])
+        
+        if not warehouse_logs or not orders:
+            return {"error": "Missing warehouse_logs or orders data"}
+        
+        # Create lookup dictionaries for efficient joining
+        orders_lookup = {order['order_id']: order for order in orders}
+        
+        # Join the data
+        joined_data = []
+        for log in warehouse_logs:
+            order_id = log.get('order_id')
+            if order_id in orders_lookup:
+                order = orders_lookup[order_id]
+                # Create joined record
+                joined_record = {
+                    'warehouse_id': log.get('warehouse_id'),
+                    'order_id': order_id,
+                    'failure_reason': order.get('failure_reason'),
+                    'status': order.get('status'),
+                    'city': order.get('city')
+                }
+                joined_data.append(joined_record)
+        
+        print(f"🔍 Joined {len(joined_data)} records")
+        
+        # Apply filters
+        filters = query_params.get('filters', {})
+        if filters:
+            for col, val in filters.items():
+                if col == 'status':
+                    joined_data = [row for row in joined_data if row.get(col, '').lower() == str(val).lower()]
+                elif col == 'warehouse_id':
+                    joined_data = [row for row in joined_data if str(row.get(col, '')) == str(val)]
+        
+        # Group by failure_reason and count
+        failure_counts = {}
+        for record in joined_data:
+            failure_reason = record.get('failure_reason', 'Unknown')
+            if failure_reason not in failure_counts:
+                failure_counts[failure_reason] = 0
+            failure_counts[failure_reason] += 1
+        
+        # Convert to results format
+        results = []
+        for failure_reason, count in failure_counts.items():
+            results.append({
+                'failure_reason': failure_reason,
+                'count_order_id': count
+            })
+        
+        # Sort by count
+        results.sort(key=lambda x: x['count_order_id'], reverse=True)
+        
+        # Apply limit
+        limit = query_params.get('limit', 5)
+        if limit:
+            results = results[:limit]
+        
+        return results
+    
     def _get_relationship_info(self):
         """Get table relationship information for LLM understanding."""
         relationship_info = "Table Relationships:\n"
@@ -438,8 +505,9 @@ Instructions:
 - For date filters, use actual dates from the sample data (e.g., "2025-09-15", "2025-08-20")
 - For time periods, use specific date ranges that exist in the data
 - For festival/seasonal queries, use actual dates from the sample data that represent those periods
-- IMPORTANT: System can perform basic joins for specific queries (warehouse sales analysis)
+- IMPORTANT: System can perform basic joins for specific queries (warehouse sales and failure analysis)
 - For warehouse sales analysis: Use orders table - system will automatically join with warehouse_logs
+- For warehouse failure analysis: Use orders table - system will automatically join with warehouse_logs
 - For driver performance analysis: Use fleet_logs table (has driver_id but no performance metrics)
 - For client analysis: Use clients table for client info, orders table for client orders
 - When relationships are needed but joins are not possible, provide alternative analysis using available data
@@ -606,11 +674,14 @@ JSON:"""
         
         print(f"🔍 Executing query: {query_params}")
         
-        # Check if this is a warehouse sales query that needs joining
-        if (table == 'orders' and 'warehouse' in query_params.get('intent', '').lower() and 
-            'sales' in query_params.get('intent', '').lower()):
-            print("🔍 Detected warehouse sales query - attempting join")
-            return self._execute_warehouse_sales_join(query_params)
+        # Check if this is a warehouse-related query that needs joining
+        if (table == 'orders' and 'warehouse' in query_params.get('intent', '').lower()):
+            if 'sales' in query_params.get('intent', '').lower():
+                print("🔍 Detected warehouse sales query - attempting join")
+                return self._execute_warehouse_sales_join(query_params)
+            elif 'failure' in query_params.get('intent', '').lower():
+                print("🔍 Detected warehouse failure query - attempting join")
+                return self._execute_warehouse_failure_join(query_params)
         
         # Get data
         print(f"🔍 Available tables: {list(self.analyzer.data.keys())}")
